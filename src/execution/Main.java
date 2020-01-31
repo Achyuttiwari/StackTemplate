@@ -7,8 +7,10 @@
 
 package execution;
 
+import definition.MyStack;
+
 public class Main {
     public static void main(String[] args) {
-
+        MyStack<Integer> stack = new MyStack<>();
     }
 }
