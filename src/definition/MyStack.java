@@ -9,6 +9,9 @@ package definition;
 
 import adt.StackADT;
 
+/**
+ * It is the definition class for the implementation of the ADT interface.
+ */
 public class MyStack<E> implements StackADT<E> {
 
     // this node will store the reference to the node at the "top" of the stack.
