@@ -9,6 +9,8 @@ package definition;
 
 import adt.StackADT;
 
+import java.util.NoSuchElementException;
+
 /**
  * It is the definition class for the implementation of the ADT interface.
  */
@@ -24,7 +26,8 @@ public class MyStack<E> implements StackADT<E> {
         E response = null;
         // check if the stack is empty
         if (this.isEmpty()) {
-
+            // throw a NoSuchElementException
+            throw new NoSuchElementException("Stack Underflow!");
         }
         return response;
     }
