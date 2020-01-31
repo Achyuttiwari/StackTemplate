@@ -22,6 +22,10 @@ public class MyStack<E> implements StackADT<E> {
     @Override
     public E peek() {
         E response = null;
+        // check if the stack is empty
+        if (this.isEmpty()) {
+
+        }
         return response;
     }
 
