@@ -16,6 +16,8 @@ public class MyStack<E> implements StackADT<E> {
 
     // this node will store the reference to the node at the "top" of the stack.
     private Node<E> top = null;
+    // this will store the current size of the stack.
+    private int size = 0;
 
     @Override
     public E peek() {
