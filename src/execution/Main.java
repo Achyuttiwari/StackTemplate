@@ -31,6 +31,8 @@ public class Main {
                     break;
                 case 3: /*PEEK AT THE NODE AT THE TOP*/
                     break;
+                case 4: /*EXIT*/
+                    System.exit(0);
             }
         }
     }
