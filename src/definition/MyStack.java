@@ -28,6 +28,11 @@ public class MyStack<E> implements StackADT<E> {
         if (this.isEmpty()) {
             // throw a NoSuchElementException
             throw new NoSuchElementException("Stack Underflow!");
+        } else {
+            // since we are using a stack, the last added node is always at the "top"
+            // so, we can fetch the data from the reference of the "top" node.
+            Node<E> topNode = top;
+            response = topNode.getData();
         }
         return response;
     }
