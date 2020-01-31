@@ -11,6 +11,9 @@ import adt.StackADT;
 
 public class MyStack<E> implements StackADT<E> {
 
+    // this node will store the reference to the node at the "top" of the stack.
+    private Node<E> top = null;
+
     @Override
     public E peek() {
         return null;
