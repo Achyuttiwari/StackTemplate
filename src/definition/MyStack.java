@@ -7,5 +7,16 @@
 
 package definition;
 
-public class MyStack<E> {
+import adt.StackADT;
+
+public class MyStack<E> implements StackADT<E> {
+    @Override
+    public E peek() {
+        return null;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
 }
