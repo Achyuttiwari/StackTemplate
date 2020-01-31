@@ -29,5 +29,13 @@ public class MyStack<E> implements StackADT<E> {
             this.data = data;
             this.next = next;
         }
+
+        private E getData() {
+            return data;
+        }
+
+        private Node<E> getNext() {
+            return next;
+        }
     }
 }
