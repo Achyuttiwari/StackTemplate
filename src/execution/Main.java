@@ -29,6 +29,8 @@ public class Main {
                     break;
                 case 2: /*POP A NODE FROM THE STACK*/
                     break;
+                case 3: /*PEEK AT THE NODE AT THE TOP*/
+                    break;
             }
         }
     }
