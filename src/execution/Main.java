@@ -26,6 +26,7 @@ public class Main {
                 case 1: /*PUSH A NODE AT THE TOP*/
                     System.out.println("Enter the data(int num) of the node to push: ");
                     int data = scanner.nextInt();
+                    break;
             }
         }
     }
