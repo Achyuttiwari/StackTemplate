@@ -33,6 +33,8 @@ public class Main {
                     break;
                 case 4: /*EXIT*/
                     System.exit(0);
+                default:
+                    System.out.println("Please enter a valid choice!");
             }
         }
     }
