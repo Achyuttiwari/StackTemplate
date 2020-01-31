@@ -21,7 +21,8 @@ public class MyStack<E> implements StackADT<E> {
 
     @Override
     public E peek() {
-        return null;
+        E response = null;
+        return response;
     }
 
     @Override
