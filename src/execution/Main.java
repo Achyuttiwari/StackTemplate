@@ -27,6 +27,8 @@ public class Main {
                     System.out.println("Enter the data(int num) of the node to push: ");
                     int data = scanner.nextInt();
                     break;
+                case 2: /*POP A NODE FROM THE STACK*/
+                    break;
             }
         }
     }
