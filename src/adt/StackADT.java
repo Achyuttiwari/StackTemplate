@@ -1,4 +1,4 @@
 package adt;
 
-public interface StackADT {
+public interface StackADT<E> {
 }
