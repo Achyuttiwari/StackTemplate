@@ -10,6 +10,7 @@ package definition;
 import adt.StackADT;
 
 public class MyStack<E> implements StackADT<E> {
+
     @Override
     public E peek() {
         return null;
@@ -18,5 +19,9 @@ public class MyStack<E> implements StackADT<E> {
     @Override
     public boolean isEmpty() {
         return false;
+    }
+
+    private static class Node<E> {
+
     }
 }
