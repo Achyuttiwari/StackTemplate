@@ -10,4 +10,6 @@ public interface StackADT<E> {
      * @return the data of the node at the top of the stack, NoSuchElementException if the stack was empty.
      */
     E peek();
+
+    boolean isEmpty();
 }
