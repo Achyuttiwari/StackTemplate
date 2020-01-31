@@ -11,5 +11,10 @@ public interface StackADT<E> {
      */
     E peek();
 
+    /**
+     * This method will determine whether the stack is currently empty.
+     *
+     * @return boolean TRUE if the stack if empty else boolean FALSE
+     */
     boolean isEmpty();
 }
