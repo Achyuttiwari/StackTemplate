@@ -56,6 +56,10 @@ public class MyStack<E> implements StackADT<E> {
         E response = null;
         // create a reference copy of the top node.
         Node<E> temp = top;
+        // check if the temp is not null
+        if (temp != null) {
+
+        }
         return response;
     }
 
