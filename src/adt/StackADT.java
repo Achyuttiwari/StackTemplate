@@ -28,6 +28,8 @@ public interface StackADT<E> {
 
     /**
      * This method will "pop" a node from the top of the stack.
+     *
+     * @return The data of the top node.
      */
     E pop();
 }
