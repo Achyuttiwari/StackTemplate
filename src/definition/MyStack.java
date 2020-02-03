@@ -45,7 +45,8 @@ public class MyStack<E> implements StackADT<E> {
 
     @Override
     public void push(E data) {
-
+        // create a new node with the data and set the reference to the top node.
+        top = new Node<>(data, top);
     }
 
     @Override
