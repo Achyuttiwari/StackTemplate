@@ -61,6 +61,8 @@ public class MyStack<E> implements StackADT<E> {
             response = temp.getData();
             // move the top node to the next node
             top = top.getNext();
+            // decrease the size of the stack
+            size--;
         }
         return response;
     }
