@@ -43,6 +43,16 @@ public class MyStack<E> implements StackADT<E> {
         return size == 0;
     }
 
+    @Override
+    public void push(E data) {
+
+    }
+
+    @Override
+    public E pop() {
+        return null;
+    }
+
     private static class Node<E> {
         private E data;
         private Node<E> next;
