@@ -58,7 +58,9 @@ public class MyStack<E> implements StackADT<E> {
         Node<E> temp = top;
         // check if the temp is not null
         if (temp != null) {
-
+            response = temp.getData();
+            // move the top node to the next node
+            top = top.getNext();
         }
         return response;
     }
