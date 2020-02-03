@@ -34,6 +34,7 @@ public class Main {
                     int poppedData = stack.pop();
                     break;
                 case 3: /*PEEK AT THE NODE AT THE TOP*/
+                    System.out.println("Top of the node: " + stack.peek());
                     break;
                 case 4: /*EXIT*/
                     System.exit(0);
