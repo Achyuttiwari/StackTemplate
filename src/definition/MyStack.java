@@ -54,6 +54,8 @@ public class MyStack<E> implements StackADT<E> {
     @Override
     public E pop() {
         E response = null;
+        // create a reference copy of the top node.
+        Node<E> temp = top;
         return response;
     }
 
