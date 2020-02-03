@@ -25,4 +25,9 @@ public interface StackADT<E> {
      * @param data The data of the node to be inserted.
      */
     void push(E data);
+
+    /**
+     * This method will "pop" a node from the top of the stack.
+     */
+    E pop();
 }
