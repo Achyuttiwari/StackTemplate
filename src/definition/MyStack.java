@@ -53,8 +53,8 @@ public class MyStack<E> implements StackADT<E> {
 
     @Override
     public E pop() {
-        E repsonse = null;
-        return repsonse;
+        E response = null;
+        return response;
     }
 
     private static class Node<E> {
