@@ -17,4 +17,12 @@ public interface StackADT<E> {
      * @return boolean TRUE if the stack if empty else boolean FALSE
      */
     boolean isEmpty();
+
+
+    /**
+     * This method will "push" a node at the top of the stack.
+     *
+     * @param data The data of the node to be inserted.
+     */
+    void push(E data);
 }
