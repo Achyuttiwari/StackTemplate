@@ -30,6 +30,8 @@ public class Main {
                     stack.push(data);
                     break;
                 case 2: /*POP A NODE FROM THE STACK*/
+                    // pop the data from the stack
+                    int poppedData = stack.pop();
                     break;
                 case 3: /*PEEK AT THE NODE AT THE TOP*/
                     break;
